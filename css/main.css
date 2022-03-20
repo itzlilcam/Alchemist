@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+body {background-color: #272934;}
+
+/*NAVIGATION*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {width: 75px; height: auto;}
+.nav-links li {display: inline-block; margin: 0px 20px;}
+.nav-links a {
+    color: #7c7f83;
+    font-size: 13.5px;
+    transition: 0.3s;
+    padding: 5px;
+}
+.nav-links a:hover {color: #c291aa; transition: 0.3s;}
+
+/*HEAD SECTION*/
+
+.head {margin: 5% 15%;}
+.head h1 {font-size: 45px; font-weight: 700; color: #f2f4fb; margin-bottom: 2.5rem;}
+.head p {font-size: 14.5px; color: #7c7f83; margin-bottom: 2.5rem;}
+.head button {
+    padding: 20px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+#invite-bot-btn {background-color: #814261; transition: 0.3s;}
+#invite-bot-btn:hover {background-color: #69334e; transition: 0.3s;}
+#see-features-btn {background-color: #3d3f49; transition: 0.3s;}
+#see-features-btn:hover {background-color: #5a5c68; transition: 0.3s;}
+
+#invite-bot-btn a {color: white; font-weight: 500;}
+#see-features-btn a {color: white; font-weight: 500;}
+
+/*FOOTER*/
+
+footer {
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    background-color: #21232c;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer p {font-size: 14px; color: #7c7f83;}
+footer a {font-size: 14px; color: #a1a2a5; transition: 0.3s;}
+footer a:hover {color: #b9babb; transition: 0.3s;}
+footer .fa-brands {font-size: 17px; padding: 0px 15px; color: white; transition: 0.3s;}
+
+footer .fa-discord:hover {color: #5661ea; transition: 0.3s;}
+footer .fa-youtube:hover {color: #ff0000; transition: 0.3s;}
+footer .fa-twitter:hover {color: #1d9bf0; transition: 0.3s;}
+
+/*RESPONSIVENESS*/
+
+@media screen and (max-width: 650px) {
+    .head {margin: 15% 15%;}
+    .head h1 {font-size: 25px; }
+    .head p {font-size: 13px; margin-bottom: 1.5rem;}
+    .head button {
+        padding: 10px 20px;
+        font-size: 15px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    footer p {font-size: 12px;}
+    footer a {font-size: 12px;}
+    footer .fa-brands {font-size: 14px; padding: 0px 10px; transition: 0.3s;}
+}
+
+/*
+
+Created by @vrezai
+
+Instagram: https://instagram.com/itzlilcam
+Twitter: https://twitter.com/itzlilcam
+Twitch: https://twitch.tv/itzlilcam
+Github: https://github.com/itzlilcam
+
+Follow Me: https://vrezai.me
+
+*/
